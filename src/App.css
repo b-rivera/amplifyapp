@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(31, 31, 31);
+}
+
 .App {
   text-align: center;
 }
@@ -20,3 +24,50 @@
 .App-link {
   color: #09d3ac;
 }
+
+.main-container {
+  background-color: rgb(243, 243, 243);
+  margin: 10px auto;
+  border: 1px rgb(0, 0, 0) solid;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px 20px;
+  width: 80%;
+}
+
+input {
+  border-radius: 5px;
+  margin:10px;
+}
+
+button {
+  border-radius: 5px;
+}
+
+.list-container {
+  width: 350px;
+  margin: 10px auto;
+}
+
+.list-container ul {
+  padding: 0px;
+  list-style-type: none;  
+}
+
+.list-container li {
+  text-align: left;
+  padding: 5px 10px;
+  border: 1px rgb(34, 34, 34) solid;
+  background-color: rgb(171, 188, 228);
+}
+
+.list-container li:first-of-type {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.list-container li:last-of-type {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
